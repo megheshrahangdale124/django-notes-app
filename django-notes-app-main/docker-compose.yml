@@ -54,3 +54,5 @@ services:
       - db
 networks:
     notes-app:
+volumes:
+    mysql-data:
